@@ -13,3 +13,4 @@ A simple web app that predicts whether it will rain based on weather conditions 
   - Wind Speed
   - Cloud Cover
   - Pressure
+    .....
