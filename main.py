@@ -3,8 +3,6 @@ import pandas as pd
 
 rd=pd.read_csv('weather_forecast_data.csv')
 
-print(rd.head())
-
 rd['Rain'] = rd['Rain'].map({'rain': 1, 'no rain': 0})
 x_train=rd.drop('Rain',axis=1)
 y=rd['Rain']
